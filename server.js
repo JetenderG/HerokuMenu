@@ -10,7 +10,9 @@ var routes = require("./routes");
 var db = require("./models");
 
 var app = express();
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || " mysql://dgoi8nherqa2esmb:qbsnw98cwr563lym@wvulqmhjj9tbtc1w.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/pqtmsozfib5kh0su"
+
+  ;
 
 
 
